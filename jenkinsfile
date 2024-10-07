@@ -5,7 +5,7 @@ pipeline {
         // Stage to checkout the Terraform repository
         stage('Checkout Terraform Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Maram-Hassan/siemens-task.git'
+                git branch: 'main', url: 'https://github.com/Maram-Hassan/new.git'
             }
         }
 
